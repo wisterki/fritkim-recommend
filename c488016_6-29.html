@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<!--C488016김정휴-->
+<HTML>
+<HEAD>
+    <TITLE>노래 추천</TITLE>
+    <META name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .font_big { font-size: 3em; }
+        .font_elephant { font-style: italic;}
+        .font_lighter {font-weight: lighter;}
+        .font_center {text-align: center;}
+        .font_right { text-align: right; }
+        
+        .button{
+            width:100px;
+            height: 40px;
+            background-color: aqua;
+            border-radius: 10px;
+            display: inline-block;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: wavy none;
+        }
+        .align-right {text-align: right;}
+
+        @media screen and (min-width: 1024px) {
+        .font_big { font-size: 4em; }
+        .button { width: 120px; height: 50px; line-height: 50px; }
+    </style>
+
+</HEAD>
+<BODY>
+    <p class="font_big font_elephant font_center"> song recommend</p>
+    <div class="align-right">
+        <a href="음악 프로필.html" class=" button font_lighter font_elephant font_right">my profile</a>
+    </div>
+    <p>song recommend</p>
+    <div>
+        <a href="https://youtu.be/fVoCFagYEPA?si=5rGaE3zw_TefarPT"><img src="look mom.png" alt="look mom"></a>
+    </div>
+    <div>
+        <a href="https://youtu.be/44gbx5VEYPY?si=R5mrMnuBVduK6kY3"><img src="fall for me.png" alt="fall for me"></a>
+        </div>
+    <div>
+        <a href="https://youtu.be/mk48xRzuNvA?si=EyS8nPojuYUUqG4i"><img src="hall of fame.png" alt="hall of fame"></a>
+    </div>
+
+<div>
+    <form action="https://www.youtube.com/results" method="get">
+        <input type="text" name="search_query">
+        <input type="submit" value="search">
+    </form>
+</div>
+
+</BODY>
+</HTML>
